@@ -8,6 +8,7 @@
 #include <getopt.h>
 #include <filesystem>
 
+
 const struct option options[] = {
 	{"debug", no_argument, NULL, 'd'},
 	{"force", no_argument, NULL, 'f'},
